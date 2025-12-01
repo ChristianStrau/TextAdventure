@@ -48,4 +48,8 @@ public class Player implements Combatant {
     public boolean isAlive() {
         return false;
     }
+
+    public void setCurrentRoom(Room room){
+        this.currentRoom = room;
+    }
 }

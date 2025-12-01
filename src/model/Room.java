@@ -11,7 +11,7 @@ public abstract class Room {
     Map<String, Room> exists;
     List<Item> items;
 
-    abstract String  onEnter(Player player);
+    protected abstract String  onEnter(Player player);
 
     void setExit(String direction, Room room){}
     void addItem(Item item){}
