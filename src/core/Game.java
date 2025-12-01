@@ -19,7 +19,7 @@ public class Game {
         }
     }
     void printWelcome(){
-
+        System.out.println("Hello and welcome to my Text Adventure game!");
     }
     private void setupWorld() {
         // Räume erstellen und verbinden
